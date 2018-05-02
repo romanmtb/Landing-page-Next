@@ -14,4 +14,212 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #0001c5;
+    letter-spacing: 0.06em;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+.jpk-font {
+    font-family: 'Jaapokkisubtract', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jaapokkisubtract', sans-serif;
+    letter-spacing: 0.14em;
+    font-weight: normal;
+    line-height: 1.25em;
+}
+
+div, p, span, a, input, button {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 7%;
+    position: relative;
+}
+
+.btn {
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 17px 0;
+    width: 217px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #0001c5;
+}
+
+/* First section */
+
+.header {
+    background: #0001c5 url(../img/first_bg.jpg) no-repeat center bottom / cover;
+    color: #fff;
+    height: 100vh;
+}
+
+.header .container {
+    height: 100vh;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #0001c5;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 8%;
+}
+
+.logo:hover {
+    border-radius: 8px;
+}
+
+.brah {
+    background: #fff;
+    color: #0001C5;
+    font-size: 18px;
+    height: 184px;
+    width: 41px;
+    padding: 10px 15px;
+    position: absolute;
+    left: 61%;
+    top: 0%;
+    line-height: 1.5em;
+}
+
+.hamburger {
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 8%;
+}
+
+.hamburger span {
+    background: #fff;
+    display: block;
+    height: 2px;
+    margin-bottom: 6px;
+    float: right;
+    width: 100%;
+    cursor: pointer;
+}
+
+.hamburger span:nth-child(1) {
+
+}
+
+.hamburger span:nth-child(2) {
+    width: 75%;
+}
+
+.hamburger span:nth-child(3) {
+    width: 50%;
+}
+
+.hamburger:hover span {
+    float: left;
+}
+
+.offer {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -250px;
+}
+
+.offer__bg {
+    font-size: 300px;
+    color: #1b1cc4;
+    position: absolute;
+}
+
+.offer__title {
+    font-size: 55px;
+    position: relative;
+    width: 561px;
+    margin-top: 110px;
+    margin-left: 134px;
+}
+
+.offer__title:after {
+    content: '';
+    display: block;
+    background: #fff;
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    right: 180px;
+    top: -20px;
+}
+
+.offer__text {
+    font-size: 17px;
+    width: 337px;
+    margin-top: 40px;
+    margin-left: 226px;
+}
+
+.offer__btn {
+    margin-left: 350px;
+    margin-top: 45px;
+
+}
+
+.next {
+    font-size: 300px;
+    width: 433px;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    margin-top: -180px;
+    line-height: 0;
+    text-shadow: 15px 15px 0 #0309a1;
+}
+
+.next span {
+    margin-right: -70px;
+    line-height: 0.7em;
+}
+
+.next span:nth-child(2) {
+    color: #0048ff;
+}
+
+.scroll {
+    display: block;
+    font-size: 22px;
+    border-right: 3px solid #fff;
+    height: 135px;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: #fff;
+    width: 100px;
+    text-decoration: none;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.scroll:hover {
+    background: #fff;
+    color: #0000a0;
 }
